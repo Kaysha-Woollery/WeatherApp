@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Parcel Sandbox</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="src/styles.css" />
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  </head>
+
+  <body>
+    <form id="city-form">
+      <input
+        type="text"
+        placeholder="Enter city here"
+        autocomplete="off"
+        id="city-form-input"
+      />
+      <input type="submit" value="Search" />
+    </form>
+    <h1 id="temperature">25°</h1>
+    <h2>London</h2>
+    <p id="date-time">Friday 19:38</p>
+    <p>
+      Humidity: <span id="humidity">77</span> | Wind: <span id="wind">77</span>
+    </p>
+    <p class="stats">
+      <span class="day">Sun </span
+      ><span class="temp"> 19° | <strong>33°</strong></span> ☀️
+    </p>
+    <p class="stats">
+      <span class="day">Mon </span
+      ><span class="temp"> 20° | <strong>33°</strong></span> ☀️
+    </p>
+    <p class="stats">
+      <span class="day">Tue </span
+      ><span class="temp"> 21° | <strong>32°</strong></span> 🌩
+    </p>
+    <p class="stats">
+      <span class="day">Wed </span
+      ><span class="temp"> 20° | <strong>32°</strong></span> 🌩
+    </p>
+    <p class="stats">
+      <span class="day">Thurs </span
+      ><span class="temp"> 18° | <strong>27°</strong></span> 🌩
+    </p>
+    <script src="/src/index.js"></script>
+  </body>
+</html>

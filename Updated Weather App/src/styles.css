@@ -1,0 +1,29 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+  text-align: center;
+  color: #43a5f5;
+}
+h2 {
+  text-align: center;
+  color: orange;
+}
+
+p {
+  text-align: center;
+  color: black;
+}
+#city-form {
+  text-align: center;
+  margin: 80px 100px 50px;
+}
+.stats {
+  text-align: center;
+}
+.day {
+  color: #43a5f5;
+}
+.temp {
+  color: #99a0ad;
+}
